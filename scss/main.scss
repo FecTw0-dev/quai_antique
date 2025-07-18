@@ -91,10 +91,11 @@ footer.footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 2rem;
 }
 
 }
 
 .form-label {
-    color: $primary-color;
+    color: $primary;
 }
