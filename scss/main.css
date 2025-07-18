@@ -11980,20 +11980,31 @@ html {
   min-height: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%; /* pas auto */
+}
+
 main {
   margin-bottom: 250px;
+}
+
+.nav-link {
+  font-family: "Hind Madurai", "serif";
 }
 
 footer.footer {
   padding: 15px;
   position: absolute;
-  bottom: 0%;
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
+  bottom: 0;
 }
 
 .plat-scene {
   position: relative;
+  margin-bottom: 15px;
 }
 .plat-scene::before {
   content: "";
@@ -12010,7 +12021,6 @@ footer.footer {
   position: relative;
 }
 .plat-scene .plat-scene-content {
-  height: 300px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -12041,7 +12051,8 @@ footer.footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Hind Madurai", "serif";
-  font-size: 24px;
-  font-weight: 100;
+}
+
+.form-label {
+  color: #906427;
 }/*# sourceMappingURL=main.css.map */
