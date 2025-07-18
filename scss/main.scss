@@ -6,6 +6,7 @@ html {
     min-height: 100%;;
 }
 
+
 main {
     margin-bottom: 250px;
 }
@@ -20,7 +21,7 @@ width: 100%;
 
 p{
     font-family: $font-family-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .plat-scene {
@@ -52,4 +53,8 @@ p{
         margin-top: 0px;
     }
     
+}
+
+.text-justify {
+    text-align: justify;
 }
