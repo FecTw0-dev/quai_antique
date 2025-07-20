@@ -124,14 +124,3 @@ footer.footer {
     }
 }
 
-.btn.btn-primary {
-    font-size: 18px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-    &:hover{
-        background-color: darken($primary, 10%);
-        transform: scale(1.05);
-    }
-
-}
