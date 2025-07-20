@@ -28,7 +28,7 @@ footer.footer {
   padding: 15px;
   position: absolute;
   width: 100%;
-  font-size: 14px;
+  font-size: 18px;
   bottom: 0;
 }
 
@@ -111,4 +111,27 @@ footer.footer {
 
 .form-label {
     color: $primary;
+}
+
+.allreservations {
+    a{
+        display:block;
+        color: $black;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+}
+
+.btn.btn-primary {
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: darken($primary, 10%);
+        transform: scale(1.05);
+    }
+
 }
